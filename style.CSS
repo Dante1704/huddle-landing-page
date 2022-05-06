@@ -1,0 +1,277 @@
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 23px;
+}
+
+.logo-top {
+    width: 30%;
+    height: 30%;
+}
+
+
+.try-it {
+    background: transparent;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 20px;
+    padding: 4px 15px;
+    cursor: pointer;
+}
+
+.try-it:active {
+    border: 1px solid hsl(321, 100%, 78%);
+}
+
+main {
+    padding: 60px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.main-icons {
+    width: 24px;
+    margin-left: 5px;
+    margin-top: 100px;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.g-s-f-f {
+    background: hsl(322, 100%, 66%);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 20px;
+    padding: 10px 46px;
+    width: fit-content;
+    margin-bottom: 100px;
+    box-shadow: 0px 4px 4px 2px hsla(0, 0%, 44%, 0.2);
+    cursor: pointer;
+}
+
+.g-s-f-f:active {
+    background: hsl(321, 100%, 78%);
+    border: 1px solid hsl(321, 100%, 78%);
+}
+
+.num-comm {
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.comm-formed,
+.msjs-sent {
+    color: hsl(0, 0%, 51%);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.comm-formed {
+    font-size: 15px;
+}
+
+.num-msjs {
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.grw-tgh,
+.fl-convs,
+.yr-usr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-imgs {
+    width: 80%;
+    max-width: 546px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 21px;
+    margin-bottom: 0px;
+}
+
+.yr-usr {
+    margin-bottom: 200px;
+}
+
+.img-top-footer {
+    position: relative;
+    top: 16px;
+    width: 100%;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+footer {
+    padding: 40px 30px 40px 30px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.news {
+    text-align: left;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.how-activate-news {
+    text-align: left;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    line-height: 1.8;
+    margin-top: 0px;
+}
+
+.how-to-contact {
+    text-align: left;
+    font-weight: 100;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    height: 44px;
+    border-radius: 8px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.subscribe {
+    align-self: flex-end;
+    background: hsl(322, 100%, 66%);
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 5px;
+    padding: 12px 38px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.subscribe:active {
+    background: hsl(321, 100%, 78%);
+    border: 1px solid hsl(321, 100%, 78%);
+}
+
+.logo-footer {
+    filter: invert(100%) sepia(82%) saturate(27%) hue-rotate(201deg) brightness(105%) contrast(100%);
+    width: 198px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone,
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.phone p,
+.email p {
+    font-weight: 100;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+}
+
+.fa-solid {
+    margin-right: 15px;
+}
+
+.sc-media {
+    margin-top: 44px;
+}
+
+.fa-brands {
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.fa-brands.fa-facebook-square.fa-xl:active {
+    color: hsl(220, 46%, 48%);
+}
+
+.fa-brands.fa-instagram.fa-xl:active {
+    color: violet;
+}
+
+.fa-brands.fa-twitter.fa-xl:active {
+    color: hsl(202, 98%, 54%);
+}
+
+.attribution {
+    font-size: 11px;
+    margin: 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 455px) {
+    footer {
+        padding: 40px 50px 40px 50px;
+    }
+}
